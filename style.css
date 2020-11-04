@@ -1,0 +1,124 @@
+a, h1, h2, h3, h4, h5, h6, div, p, body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-image: url("images/vege.jpg");
+    background-repeat: no-repeat;
+    background-color: #000;
+    height: 2000px; 
+}
+
+.nav p {
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.nav a {
+    float: right;
+    padding-top: 30px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-right: 15px;
+}
+.anc {
+    margin-right: 50px; 
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    color: #fff;
+    height: 90vh;
+    padding-left: 50px;
+}
+.content h2 {
+    font-size: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.content h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+}
+.content hr {
+    width: 575px;
+    color: #fff;
+}
+
+.nav hr {
+    width: 1470px;
+}
+
+.bread img {
+    width: 450px;
+    height: 300px;
+}
+
+.bread {
+    color: #fff; 
+    margin-top: 558px;
+    display: flex;
+}
+
+.bread h2 {
+    font-size: 40px;
+}
+
+.para1 {
+    margin-top: 95px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.pine img {
+    width: 450px;
+    height: 300px;
+}
+
+.pine {
+    display: flex;
+    color: #fff;
+    flex-direction: row-reverse;
+}
+
+.pine h2 {
+    font-size: 40px;
+}
+
+.para2 {
+    margin-top: 95px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.pasta img {
+    width: 450px;
+    height: 300px;
+}
+
+.pasta {
+    display: flex;
+    color: #fff;
+}
+
+.pasta h2 {
+    font-size: 40px;
+}
+
+.para3 {
+    margin-top: 95px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
